@@ -1,0 +1,37 @@
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias ls='ls -F'
+alias la='ls -F -A'
+alias ll='ls -F -A -o -h'
+alias top='top -o cpu -s 2 -i 2'
+alias pg='ps aux | grep'
+
+alias gs='git status'
+alias ga='git add'
+alias gl='git lg'
+alias gla='git lga'
+alias gg='git add -u && git add . && git status'
+alias gm='git commit'
+alias gb='git branch'
+alias gd='git diff head'
+alias gc='git checkout'
+alias gf='git flow'
+alias gh='github'
+alias gr='git reset'
+
+alias bundl='bundle install --binstubs && rbenv rehash'
+
+alias rs='rails server'
+alias rc='rails console'
+alias rg='rails generate'
+alias rr='rails runner'
+
+alias gmi='gem install'
+alias gmu='gem update'
+
+alias bu="brew update && brew outdated"
+
+alias check='openssl sha1 -c'
+
+alias hg='cat ~/.history | grep'
