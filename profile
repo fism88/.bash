@@ -15,7 +15,7 @@ export GREP_COLOR='1;32'
 
 export PGDATA=/usr/local/var/postgres/
 
-export PATH=/$HOME/.rbenv/bin:usr/local/bin:$PATH
+export PATH=$HOME/.rbenv/bin:/usr/local/bin:$PATH
 eval "$(rbenv init -)"
 export PATH=./bin:$PATH
 
